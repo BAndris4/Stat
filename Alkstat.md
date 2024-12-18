@@ -496,10 +496,15 @@ populáció szórásnégyzetének.
 
 ## Medián, Kvantilis, Kvartilis  
 - **Medián**: Az az érték, amelynél a minta fele kisebb, fele nagyobb (osztópont).  
+
   $$P(X<\mu)<1/2 \qquad \text{és} \qquad P(X>\mu)\leq1/2$$  
-  $\mu$ - medián
+
+  $\mu$ - medián  
+
 - **Kvantilis**: Az $q$-adik kvantilis az az érték, amelynél a megfigyelések $q$-ad része kisebb vagy egyenlő.  
+
   $$P(X < Q(q)) < q \qquad \text{ha} \qquad P(X > Q(q)) \leq 1-q$$  
+
   ahol $Q(q)$ a q-adik kvantilis, azaz az az érték, amelyhez tartozik az a valószínűség, hogy $X$ kisebb vagy egyenlő, mint $Q(q)$  
 
 - **Kvartilisok**: 
